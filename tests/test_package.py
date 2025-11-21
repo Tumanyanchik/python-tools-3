@@ -24,7 +24,7 @@ def test_exists_tests_package():
         ]
 )
 def test_tests_package_contains_case(test_module):
-    assert test_module in os.listdir("tests"), (
+    assert test_module in os.listdir(""), (
         f"Убедитесь, что в проекте `python-tools-3` "
         f"в пакете `tests` содержится модуль {test_module}."
     )
